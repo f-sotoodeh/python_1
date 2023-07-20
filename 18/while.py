@@ -21,3 +21,4 @@ while True:
         continue
     s += a
 print(s)
+
