@@ -2,7 +2,7 @@ from time import time
 from math import sqrt
 
 tic = time()
-n = 100
+n = 10_000
 prime_numbers = [2]
 for i in range(3, n, 2):
     # for p in [j for j in prime_numbers if j <= sqrt(i)]:
@@ -14,4 +14,4 @@ for i in range(3, n, 2):
 # print(len(prime_numbers))
 toc = time()
 print(toc-tic)
-print(prime_numbers)
+# print(prime_numbers)
